@@ -1,0 +1,61 @@
+main{
+  color: #222;
+}
+blockquote::before {
+  content: "“";
+  font-size: 150px;
+  position: absolute;
+  max-width: 500px;
+  top: -40px;
+  left: 0
+}
+blockquote {
+  font-family: Abril Fatface;
+  background: grey;
+  color: white;
+  font-size: 40px;
+  position: relative;
+  padding: 60px;
+  width: 600px
+}
+img{
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#top {
+  font-size: 20px;
+  font-family: Abril Fatface;
+  top: 200px;
+  left: 300px;
+  position: absolute;
+}
+#supertop{
+  font-size: 45px;
+  font-family: Abril Fatface;
+  top: 200px;
+  left: 300px;
+  position: absolute
+}
+.kurziva{
+  font-style: italic;
+  font-family: 'Josefin Sans';
+}
+nav{
+  font-family: 'Josefin Sans';
+  max-width: 500px;
+  margin: auto;
+
+}
+h1{
+  font-family: 'Josefin Sans';
+}
+h2{
+  font-family: 'Josefin Sans';
+  Font-variant: Small-caps;
+}
+h3{
+  font-family: 'Merriweather'
+}
+p{
+  font-family: 'Josefin Sans';
